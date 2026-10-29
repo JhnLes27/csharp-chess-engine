@@ -100,10 +100,13 @@ namespace ChessUI
             if (moves.Any())
             {
                 selectedPos = pos;
+                selectedPos = pos;
                 CacheMoves(moves);
                 ShowHighlights();
             }
         } 
+
+        
 
         private void OnToPositionSelected(Position pos)
         {
